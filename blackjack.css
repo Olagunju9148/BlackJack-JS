@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-size: 70px; */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    margin: 0 auto;
+    background: url(/table.jpg);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: goldenrod;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+p {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+#player-el {
+    margin-top: 1.5rem;
+}
+
+button {
+    background-color: goldenrod;
+    margin: 5px 0;
+    padding: 10px 60px;
+    border-radius: 5px;
+    border: 1px solid #016f32;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #016f32;
+}
+
+#newcard-el {
+    padding: 10px 70px;
+}
