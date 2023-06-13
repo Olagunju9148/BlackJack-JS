@@ -14,7 +14,7 @@ let cardsEl = document.querySelector("#cards-el");
 let newCardEl = document.getElementById("newcard-el");
 let playerEl = document.getElementById("player-el");
 
-playerEl.textContent = player.name + ": $"+ player.chips;
+
 
 function getRandomCard() {
     let randomCards = Math.floor(Math.random()*13) + 1
@@ -46,6 +46,7 @@ function renderGame() {
     message = "Do you want to draw a new card?🙂";
   } else if (sum === 21) {
     message = "Wohoo! You've got Blackjack!🥳";
+    playerEl.textContent = player.name + ": $"+ player.chips;
     hasBlackjack = true;
   } else {
     message = "Oops! You're out of the game😭";
